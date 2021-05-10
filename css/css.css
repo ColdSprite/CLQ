@@ -1,0 +1,187 @@
+﻿/*通用类*/
+*{
+	margin:0;
+	padding:0;	
+}
+body{		
+	min-width:1200px;
+	margin:0 auto;
+	font-size:14px;	
+	background:#fff;
+	text-align:justify;	
+	color:#000;
+}
+h1,h2,h3{	
+	font-weight:500;	
+}
+img{
+	border:none;	
+}
+a{
+	cursor:pointer;
+	color:#000;
+	text-decoration:none;	
+	outline:none;
+}
+a:hover{
+	color:#ffe500;	
+}
+ul{
+	list-style-type:none;	
+}
+em{
+	font-style:normal;	
+}
+
+
+
+div.clear{
+	font: 0px Arial; line-height:0;
+	height:0; 
+	overflow:hidden;	
+	clear:both;	
+}
+
+
+
+/*wrapin 主体容器宽度*/
+.wrapin{
+	padding:0 40px;
+
+}
+
+/*公用CSS 开始*/
+.index_bg {
+	background:url(../images/tuan.jpg) center no-repeat;
+	background-size:cover;
+}
+.ind_tit {
+	font-size:36px;
+	color:#ffe599;
+	padding-top:20px;
+}
+.ind_tit p {
+	margin-left:20px;
+}
+
+.nav {
+	position:absolute;
+	/*background:url(../images/paw1.png) no-repeat center;*/
+	background-size:auto 100%;
+	color:#ffffff;
+	width:300px;
+	height:150px;
+	line-height:150px;
+	text-align:center;
+	font-size:24px;
+}
+.nav1 {
+	top:25%;
+	left:40px;
+}
+.nav2 {
+	top:50%;
+	left:40px;
+}
+.nav3 {
+	top:15%;
+	right:40px;
+}
+.nav4 {
+	top:40%;
+	right:40px;
+}
+.ind_text {
+	font-size:26px;
+	position:absolute;
+	left:40px;
+	bottom:40px;
+	color:#7f7f7f;
+}
+.ind_text .te1 {
+	opacity:0.3;
+}
+.ind_text .te2 {
+	opacity:0.6;
+}
+
+.logo {
+	display:block;
+	font-size:36px;
+	color:#085394;
+	padding:40px 0;
+}
+.Introd_pic {
+	width:30%;
+	margin-left:6%;
+	float:left;
+	overflow:hidden;
+}
+.Introd_pic img {
+	width:100%;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.Introd_pic img:hover {
+	transform:scale(1.1);-webkit-transform:scale(1.1);  /*兼容-webkit-引擎浏览器*/-moz-transform:scale(1.1); 
+}
+.wa_tit {
+	font-size:36px;
+	color:#085394;
+	text-align:center;
+	height:100px;
+	line-height:100px;
+}
+.Introd_word {
+	color:#333;
+	float:right;
+	width:55%;
+	font-size:24px;
+	margin-right:6%;
+}
+.Videos_list li {
+	width:33.3%;
+	text-align:center;
+	float:left;
+	margin-top:40px;
+}
+.Videos_list .pic {
+	margin:0 5%;
+	overflow:hidden;
+	height:350px;
+}
+.Videos_list .pic img {
+	width:100%;
+	height:100%;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+	object-fit:cover;
+}
+.Videos_list .pic img:hover {
+	transform:scale(1.1);-webkit-transform:scale(1.1);  /*兼容-webkit-引擎浏览器*/-moz-transform:scale(1.1); 
+}
+.Videos_list .word img {
+	width:60px;
+	padding:10px 0;
+}
+.Videos_list .word {
+	font-size:18px;
+}
+.more_word h3 {
+	font-size:24px;
+	padding-bottom:20px;
+}
+.more_word h3 img {
+	width:40px;
+	margin:0 5px;
+}
+.more_word {
+	font-size:18px;
+	margin:0 6%;
+	color:#333;
+	line-height:32px;
+}
