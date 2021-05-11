@@ -118,6 +118,7 @@ div.clear{
 	overflow:hidden;
 }
 .Introd_pic img {
+	
 	width:100%;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -135,6 +136,7 @@ div.clear{
 	line-height:100px;
 }
 .Introd_word {
+	margin:0 auto;
 	color:#333;
 	float:right;
 	width:55%;

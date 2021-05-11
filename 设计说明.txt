@@ -3,3 +3,5 @@
 3.  包含模板 模板有 首页 简介 作品展示 今日资讯
 4.  设计规范 字体是微软雅黑  字体颜色是#000  #085394  #ffe599  
 5.  方法技术 html css js
+
+git地址：https://github.com/ColdSprite/CLQ.git
